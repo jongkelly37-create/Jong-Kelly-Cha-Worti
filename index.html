@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jong Kelly | Engineer • Creator • Footballer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">
+        <h1>
+            <span class="red">J</span>ong 
+            <span class="red">K</span>elly
+        </h1>
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#careers">Careers</a>
+        <a href="#ai">Gemini AI</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+        <h2>Engineer | Footballer | Content Creator</h2>
+        <p>
+            I build digital solutions, create engaging content and perform 
+            professionally on the football field with passion and discipline.
+        </p>
+        <button onclick="scrollToSection('contact')">Work With Me</button>
+    </div>
+
+    <div class="hero-image">
+        <img src="kelly.png" alt="kelly.png" width="200">
+          <img src="popo.jpg" alt="popo.jpg" width="200">
+        <img src="Yoo.png" alt="Yoo.png" width="200">    
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am Jong Kelly — a multi-talented professional combining technology, 
+        creativity and athletic excellence. I specialize in software engineering, digital content creation and competitive football.
+    </p>
+</section>
+
+<!-- CAREERS -->
+<section id="careers" class="section">
+    <h2>Professional Journey</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <i class="fas fa-code"></i>
+            <h3>Engineering</h3>
+            <p>
+                Building modern web applications, AI-integrated systems and 
+                scalable digital platforms.
+            </p>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-video"></i>
+            <h3>Content Creation</h3>
+            <p>
+                Creating engaging digital content across TikTok, YouTube, 
+                Instagram and Facebook platforms.
+            </p>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-futbol"></i>
+            <h3>Football</h3>
+            <p>
+                Competitive football player with strong teamwork, leadership 
+                and discipline on and off the pitch.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- GEMINI AI -->
+<section id="ai" class="section ai-section">
+    <h2>Gemini AI Assistant</h2>
+    <p>Ask about my skills, football career or content work.</p>
+
+    <div class="ai-box">
+        <input type="text" id="userInput" placeholder="Ask something...">
+        <button onclick="geminiAI()">Ask</button>
+    </div>
+
+    <div id="aiResponse"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-grid">
+        <div><i class="fas fa-envelope"></i> jongkelly@email.com</div>
+        <div><i class="fas fa-phone"></i> +237 673002652</div>
+        <div><i class="fab fa-whatsapp"></i> +237 673002652</div>
+        <div><i class="fab fa-tiktok"></i> Kelly Popo</div>
+        <div><i class="fab fa-facebook"></i> Kelly Popo</div>
+        <div><i class="fab fa-instagram"></i> Kelly Popo Official</div>
+    </div>
+</section>
+
+<footer>
+    ©Jong Kelly | Professional Portfolio
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
